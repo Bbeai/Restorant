@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+
+/*********************Header*********************/
+header {
+  width: 100%;
+  background-image: url("../img/cover.jpg");
+  background-size: cover;
+  background-attachment: fixed; /*imagen pegada a la pantalla*/
+  background-position: center 0;
+  /*filter: contrast(50%);*/
+  /*filter: grayscale(50%);*/
+  /*filter: opacity(139%);*/
+}
+
+header .container {
+  position: relative; /*para cuando queremos mover los elementos*/
+  height: 550px;
+}
+
+header img {
+  opacity: 50%;
+}
+header .menu {
+  width: 100%;
+  text-align: right;
+}
+
+header .menu a {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: 300;
+  display: inline-block; /*elementos uno al lado edl otro*/
+  margin: 40px 20px;
+  text-decoration: none;
+  position: relative; /*para hacer efecto que el menu aparece de arriba hacia abajo*/
+}
+header .menu a:hover {
+  text-decoration: underline;
+}
+
+header .texts {
+  width: 100%;
+  color: rgb(1, 1, 1);
+  position: absolute; /*para chacer efecto*/
+  top: 50%;
+  margin-top: -52px;
+}
+
+header .texts .name {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+header .texts .name span {
+  font-weight: 400;
+}
+
+header .texts h3 {
+  font-weight: 300;
+  font-size: 25px;
+}
