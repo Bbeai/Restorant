@@ -46,7 +46,7 @@ header .menu {
 header .menu a {
   color: rgb(0, 0, 0);
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 400;
   display: inline-block; /*elementos uno al lado edl otro*/
   margin: 40px 20px;
   text-decoration: none;
@@ -76,4 +76,51 @@ header .texts .name span {
 header .texts h3 {
   font-weight: 300;
   font-size: 25px;
+}
+
+/*********************Header*********************/
+.main {
+  background: url("../img/textu.jpg");
+  background-repeat: repeat;
+}
+
+.main .about .container {
+  overflow: visible; /**para que la imagen no se corte al chocar con la anterior*/
+  position: relative;
+}
+
+.main .about .photo {
+  width: 70%;
+  position: absolute; /*como el contenedor tiene posicion relativa y la imagen absoluta la podemos poner sobre el contenedor en la pocision que queramos*/
+  left: 0;
+  top: -60px;
+  z-index: 0; /*imagen pasa abajo del texto*/
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.45);
+}
+
+.main .about .photo img {
+  vertical-align: top;
+  width: 100%;
+}
+
+.main .about article {
+  background: #fff;
+  padding: 40px;
+  width: 50%;
+  position: relative;
+  top: -250px;
+  z-index: 1; /*imagen pasa encima de la imagen que tiene 0*/
+  float: right;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.35);
+}
+
+.main .about article h3 {
+  font-size: 50px;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+.main .about article p {
+  line-height: 28px;
+  margin-bottom: 15px;
 }
