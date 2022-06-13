@@ -108,7 +108,7 @@ header .texts h3 {
   padding: 40px;
   width: 50%;
   position: relative;
-  top: -250px;
+  top: 500px;
   z-index: 1; /*imagen pasa encima de la imagen que tiene 0*/
   float: right;
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.35);
