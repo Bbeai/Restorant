@@ -17,11 +17,11 @@ $(document).ready(function () {
   //Efecto de los textos********************************
   if ($(window).width() > 800) {
     //condicion porque solo aparecera el efecto a cierto tamaño de la pantalla
-    $("header.texts").css({
+    $("header .texts").css({
       opacity: 0,
       marginTop: 0,
     });
-    $("header.texts").animate(
+    $("header .texts").animate(
       {
         opacity: 1,
         marginTop: "-52px",
