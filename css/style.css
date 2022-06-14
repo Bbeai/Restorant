@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-  width: 90%;
+  width: 70%;
   max-width: 1000px;
   margin: auto;
   overflow: hidden;
@@ -21,7 +21,7 @@ body {
 /*********************Header*********************/
 header {
   width: 100%;
-  background-image: url("../img/cover.jpg");
+  background-image: url("../img/coverEdited.jpg");
   background-size: cover;
   background-attachment: fixed; /*imagen pegada a la pantalla*/
   background-position: center 0;
@@ -44,7 +44,7 @@ header .menu {
 }
 
 header .menu a {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-size: 20px;
   font-weight: 400;
   display: inline-block; /*elementos uno al lado edl otro*/
@@ -58,7 +58,7 @@ header .menu a:hover {
 
 header .texts {
   width: 100%;
-  color: rgb(1, 1, 1);
+  color: rgb(255, 255, 255);
   position: absolute; /*para chacer efecto*/
   top: 50%;
   margin-top: -52px;
@@ -79,10 +79,10 @@ header .texts h3 {
 }
 
 /*********************Header*********************/
-.main {
-  background: url("../img/textu.jpg");
+/*.main {
+  /*background: url("../img/textu.jpg");
   background-repeat: repeat;
-}
+}*/
 
 .main .about .container {
   overflow: visible; /**para que la imagen no se corte al chocar con la anterior*/
@@ -90,7 +90,7 @@ header .texts h3 {
 }
 
 .main .about .photo {
-  width: 70%;
+  width: 80%;
   position: absolute; /*como el contenedor tiene posicion relativa y la imagen absoluta la podemos poner sobre el contenedor en la pocision que queramos*/
   left: 0;
   top: -60px;
@@ -127,7 +127,7 @@ header .texts h3 {
 
 /*********************Menu*********************/
 .main .menu {
-  padding-top: 670px;
+  padding-top: 470px;
   margin-bottom: 50px;
 }
 
@@ -330,7 +330,7 @@ footer .copyright {
 
 @media screen and (max-width: 400px) {
   .man .about article h3 {
-    font-size: 34px;
+    font-size: 30px;
     margin-bottom: 10px;
   }
 
