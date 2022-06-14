@@ -18,7 +18,7 @@ $(document).ready(function () {
       });
 
       $(".about article").css({
-        transform: "translate(0px, -" + scroll / 2 + "%)",
+        transform: "translate(0px, -" + scroll / 4 + "%)",
         //translate (0px, 50px) cambiamos las posicionenes del transform de vorma vertical no orizontal
         //el signo - es para que vaya hacia arriba y no haci abajo
       });
